@@ -1,0 +1,71 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 95vh;
+}
+
+#main{
+	display: flex;
+	align-items: center;
+	min-width: 95vw;
+}
+
+.element{
+	display: flex;
+	flex-direction: column-reverse;
+	border-radius: 4em;
+	min-height: 80vh;
+	min-width: 5vw;
+	margin: 0 10px;
+	cursor: pointer;
+	transition: all 0.7s ease-in;
+}
+
+.element span{
+	margin: 2em 1em;
+	padding-left: 1em;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bolder;
+	font-family: "Mulish", Tahoma;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: none;
+}
+
+#first{
+	background-image: url(https://www.whoa.in/download/natural-bridge-and-mountain-hd-wallpaper);
+}
+
+#second{
+	background-image: url(https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+}
+
+#third{
+	background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+}
+
+#fourth{
+	background-image: url(https://images.unsplash.com/photo-1515021593269-80bab6254eae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2ludGVyJTIwY2l0eXxlbnwwfHwwfHw%3D&w=1000&q=80);
+}
+
+#fifth{
+	background-image: url(https://images.unsplash.com/photo-1514527893004-f77d3d773644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBjbG91ZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+}
+
+.active{
+	flex-grow: 1;
+	min-width: 40vw;
+}
+
+.active span{
+	display: inline;
+}
+
+@media (max-width: 480px) {
+	#fourth, #fifth{
+		display: none;
+	}
+}
