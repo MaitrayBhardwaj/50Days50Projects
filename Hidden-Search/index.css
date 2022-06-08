@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body{
+	background-color: #745AEA;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+
+#main{
+	display: flex;
+}
+
+#main *{
+	height: 3em;
+	border: 0;
+}
+
+#main input{
+	width: 0;
+	transition: width 0.4s linear;
+}
+
+#main input::placeholder{
+	font-size: 1.25em;
+}
+
+#main button{
+	cursor: pointer;
+	padding: 1em;
+	color: black;
+	background-color: white;
+}
+
+.grow{
+	width: 8em !important;
+	padding: 0 1.25em !important;
+}
