@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+body{
+	display: flex;
+	height: 100vh;
+}
+
+#main{
+	display: flex;
+}
+
+.ps5, .xbox{
+	min-width: 30vw;
+	display: flex;
+	width: 50vw;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.info{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	flex-direction: column;
+}
+
+.info *{
+	margin: 0.5em 0;
+}
+
+h1{
+	font-size: 3em;
+	color: white;
+}
+
+button{
+	background: 0;
+	border: 3px solid white;
+	padding: 1em 1.5em;
+	color: white;
+	font-size: 1em;
+	font-weight: bolder;
+	transition: all 0.5s;
+}
+
+.ps5{
+	background-image: linear-gradient(rgba(126,124,234,0.65), rgba(126,124,234,0.65)), url(https://wallpapercave.com/wp/wp6967907.png);
+}
+
+.xbox{
+	background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(https://gamesfontaine.com/wp-content/uploads/2020/05/wp5015321.jpg);
+}
+
+.xbox:hover{
+	flex-grow: 1;
+}
+
+.ps5:hover{
+	flex-grow: 1;
+}
+
+.ps5 button:hover{
+	background-color: rgb(126,124,234);
+	border-color: rgb(126,124,234);
+}
+
+.xbox button:hover{
+	background-color: rgb(28, 122, 28);
+	border-color: rgb(28,122,28);
+}
+
+.active{
+	max-width: 30vw;
+}
