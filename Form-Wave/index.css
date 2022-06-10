@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+a{
+	color: #4682C4;
+	text-decoration: none;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: white;
+	background-color: #4682B4;
+}
+
+#main{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	background-color: #2A4E6C;
+	padding: 1em 1em;
+	border-radius: 5px;
+	width: 30%;
+}
+
+#main *{
+	margin: 1em;
+}
+
+.form{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0;
+}
+
+.form *{
+	width: 80%;
+}
+
+.form input{
+	padding: 1em 0;
+	background-color: transparent;
+	border: 0;
+	color: white;
+	border-bottom: 2px white solid;
+	outline: 0;
+}
+
+.form button{
+	padding: 1em 2em;
+	color: black;
+	background-color: #ADD8E6;
+	border: 0;
+	font-size: 1em;
+	border-radius: 5px;
+}
+
+.form button:active{
+	transform: scale(0.95);
+}
+
+#main span a, .email span, .pass span{
+	margin: 0 !important;
+}
+
+.emailInp:focus, .passInp:focus{
+	border-color: #ADD8E6;
+	caret-color: white;
+}
+
+.form-control{
+	position: relative;
+}
+
+.form-control label{
+	margin: 0 !important;
+	text-align: left;
+	position: absolute;
+	transform: translateY(-3em);
+	justify-content: normal;
+	top: 4.5em;
+	left: 2em;
+}
+
+.form-control label span{
+	font-size: 1em;
+	transition: 0.3 cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span{
+	color: #ADD8E6;
+	position: relative;
+	/*transform: translateY(-4.5em);*/
+	top: -30px;
+}
