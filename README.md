@@ -3,6 +3,8 @@
 
 My own version of <a href = "https://github.com/bradtraversy/50projects50days">bradtraversy's 50projects50days</a>
 
+*Started on 07 June 2022.*
+
 <h2>List of projects(till now)</h2>
 
 <ul>
