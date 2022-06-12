@@ -17,6 +17,9 @@ const reduceBlur = () => {
 }
 
 window.addEventListener('load', () => {
-	const intervalID = setInterval(reduceBlur, 40)
-	setTimeout(() => clearInterval(intervalID), 4000)
+	const intervalID = setInterval(reduceBlur, 35)
+	setTimeout(() => {
+		clearInterval(intervalID)
+		main.innerHTML = ''
+	}, 4000)
 })
