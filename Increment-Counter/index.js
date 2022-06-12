@@ -8,8 +8,10 @@ let fol = 0
 
 window.addEventListener('load', () => {
 	const timerID = setInterval(() => {
-		sub = sub + 25
-		ytsub.innerHTML = sub
+                if(sub != 5000){
+			sub = sub + 25
+			ytsub.innerHTML = sub
+		}
 		if(fol != 12000){
 			fol = fol + 60
 			twfo.innerHTML = fol
@@ -20,5 +22,5 @@ window.addEventListener('load', () => {
 		}
 	}, 10)
 
-	setInterval(() => clearInterval(timerID), 2000)
+	setInterval(() => clearInterval(timerID), 3000)
 })
