@@ -25,4 +25,5 @@ My own version of <a href = "https://github.com/bradtraversy/50projects50days">b
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Drink-Water">Drink Water</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Background-Slider">Background Slider(incomplete)</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Quiz-App">Quiz App</a></li>
+<li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Hoverboard">Hoverboard</a></li>
 </ul>

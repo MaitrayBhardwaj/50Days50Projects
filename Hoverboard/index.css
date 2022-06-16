@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #111111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#main{
+	display: grid;
+	max-width: 30vw;
+	grid-template-columns: repeat(20, 1fr);
+	background-color: #111;
+}
+
+.box{
+	margin: 0.15em;
+	background-color: #1D1D1D;
+	width: 1em;
+	height: 1em;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	transition: all 0.5s linear;
+}
+
+.red{
+	background-color: rgb(231,76,60);
+	box-shadow: rgba(231,76,60) 0px 0px 2px, rgba(231,76,60) 0px 0px 10px;
+}
+
+.blue{
+	background-color: rgb(52,152,219);
+	box-shadow: rgba(52,152,219) 0px 0px 2px, rgba(52,152,219) 0px 0px 10px;
+}
+
+.green{
+	background-color: rgba(46,204,113);
+	box-shadow: rgba(46,204,113) 0px 0px 2px, rgba(46,204,113) 0px 0px 10px;
+}
+
+.orange{
+	background-color: rgb(230,126,34);
+	box-shadow: rgba(230,126,34) 0px 0px 2px, rgba(230,126,34) 0px 0px 10px;
+}
+
+.purple{
+	background-color: rgb(142,68,173);
+	box-shadow: rgba(142,68,173) 0px 0px 2px, rgba(142,68,173) 0px 0px 10px;
+}
