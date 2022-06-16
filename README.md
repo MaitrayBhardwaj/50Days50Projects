@@ -23,4 +23,6 @@ My own version of <a href = "https://github.com/bradtraversy/50projects50days">b
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Random-Choice-Picker">Random Choice Picker</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Increment-Counter">Increment Counter</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Drink-Water">Drink Water</a></li>
+<li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Background-Slider">Background Slider(incomplete)</a></li>
+<li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Quiz-App">Quiz App</a></li>
 </ul>

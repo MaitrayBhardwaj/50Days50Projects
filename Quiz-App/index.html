@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quiz App</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div id="main">
+		<div class="question">
+			<h1>Which language runs in a web browser?</h1>
+			<div class="answers">
+				<label>
+					<input type="radio" name="choice" class="choice" id="A"> <span class="option">Java</span> 
+				</label>
+				<label>
+					<input class="choice" type="radio" name="choice" id="B"> <span class="option">C</span>
+				</label>
+				<label>
+					<input type="radio" class="choice" name="choice" id="C"> <span class="option">Python</span>
+				</label>
+				<label>
+					<input type="radio" name="choice" class="choice" id="D"> <span class="option">JavaScript</span>
+				</label>
+			</div>
+		</div>
+		<button class="submit">Submit</button>
+	</div>
+	<div id="result" class="d-none">
+		<h1>You answered <span class="score"></span>/4 correctly</h1>
+		<button class="submit" id="reload">Reload</button>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>

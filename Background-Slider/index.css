@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-933054.jpg&fm=jpg);
+	background-position: center;
+	background-size: cover;
+	transition: all 0.75s ease;
+}
+
+#main{
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+button{
+	background-color: transparent;
+	border: 3px solid gold;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	padding: 0.5em;
+}
+
+.left{
+	border-right: 0;
+}
+
+.right{
+	border-left: 0;
+}
+
+.image{
+	opacity: 1;
+	height: 60vh;
+	width: 60vw;
+}
+
+/*.black{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}*/
