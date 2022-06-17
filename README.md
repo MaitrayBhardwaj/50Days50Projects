@@ -28,4 +28,5 @@ My own version of <a href = "https://github.com/bradtraversy/50projects50days">b
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Hoverboard">Hoverboard</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Todo-List">Todo List</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Mobile-Tab-Navigation">Mobile Tab Navigation</a></li>
+<li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Toast-Notifications">Toast Notifications</a></li>
 </ul>
