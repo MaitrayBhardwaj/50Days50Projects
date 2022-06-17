@@ -7,7 +7,7 @@ My own version of <a href = "https://github.com/bradtraversy/50projects50days">b
 
 <h2>List of projects(till now)</h2>
 
-<ul>
+<ol>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Expanding-Cards">Expanding Cards</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Progress-Steps">Progress Steps</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Rotating-Navigation">Rotating Navigation</a></li>
@@ -29,4 +29,4 @@ My own version of <a href = "https://github.com/bradtraversy/50projects50days">b
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Todo-List">Todo List</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Mobile-Tab-Navigation">Mobile Tab Navigation</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Toast-Notifications">Toast Notifications</a></li>
-</ul>
+</ol>
