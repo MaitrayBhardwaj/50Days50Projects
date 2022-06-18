@@ -29,9 +29,5 @@ My own version of <a href = "https://github.com/bradtraversy/50projects50days">b
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Todo-List">Todo List</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Mobile-Tab-Navigation">Mobile Tab Navigation</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Toast-Notifications">Toast Notifications</a></li>
-<<<<<<< Updated upstream
-</ol>
-=======
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Double-Click-Heart">Double Click Heart</a></li>
-</ul>
->>>>>>> Stashed changes
+</ol>
