@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Tahoma', sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #E9967A;
+}
+
+#main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text{
+	height: 80vh;
+	font-weight: bolder;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+}
+
+label{
+	background-color: #D1876E;
+	padding: 1em;
+	font-size: 1.25em;
+}
+
+#speed{
+	background-color: #E9967A;
+	border: 0;
+	font-size: 1em;
+	padding: 0.5em 0;
+	text-align: center;
+}
