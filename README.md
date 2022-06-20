@@ -35,4 +35,5 @@ My own version of <a href = "https://github.com/bradtraversy/50projects50days">b
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Button-Ripple-Effect">Button Ripple Effect</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Pokedex">Pokedex</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Random-Image-Feed">Random Image Feed</a></li>
+<li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Custom-Range-Slider">Custom Range Slider</a></li>
 </ol>
