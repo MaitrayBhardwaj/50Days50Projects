@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #2C3E50;
+	height: 100vh;
+}
+
+.horiz, .vert{
+	border: 50px solid transparent;
+	border-bottom-color: white;
+	position: absolute;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: 0.5s;
+}
+
+.vert{
+	animation-name: vertical;
+	animation-delay: 1s;
+}
+
+.horiz{
+	transform: rotate(90deg);
+	animation-name: horizontal;
+}
+
+@keyframes vertical {
+	0%, 25% {
+    	transform: rotate(0deg);
+  	}
+
+  	50%, 75% {
+    	transform: rotate(180deg);
+  	}
+
+	100% {
+    	transform: rotate(360deg);
+  	}
+}
+
+@keyframes horizontal {
+	0%, 25% {
+		transform: rotate(90deg);
+	}
+
+	50%, 75% {
+		transform: rotate(270deg);
+	}
+
+	100% {
+		transform: rotate(450deg);
+	}
+}
