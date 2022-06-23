@@ -20,6 +20,7 @@ body{
 	margin: 0 10px;
 	cursor: pointer;
 	transition: all 0.7s ease-in;
+	background-repeat: no-repeat;
 }
 
 .element span{
