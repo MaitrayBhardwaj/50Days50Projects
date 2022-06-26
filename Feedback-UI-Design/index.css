@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat, sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #FEF9F2;
+}
+
+#main, #result{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1em;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+.heart{
+	color: red;
+	font-size: 1.5em;
+}
+
+#result{
+	padding: 3em;
+}
+
+#result h4{
+	font-size: 1.1em;
+}
+
+.feedback{
+	font-weight: bold;
+}
+
+#main > *{
+	margin: 1em 0;
+}
+
+#result > *{
+	margin: 0.5em 0;
+}
+
+#main h3{
+	text-align: center;
+	width: 20em;
+	font-size: 1em;
+}
+
+.reactions{
+	display: flex;
+	justify-content: space-around;
+}
+
+.reaction{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 2px;
+	padding: 1.75em;
+	margin: 0.5em;
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+
+.d-none{
+	display: none !important;
+}
+
+.emote, .text{
+	margin: 0.5em 0;
+}
+
+.text{
+	font-size: 0.8em;
+}
+
+.sendBtn{
+	padding: 1em;
+	background-color: #302D2B;
+	border: 0;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.selected{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1));
+	transform: translateY(-2px);
+}

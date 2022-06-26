@@ -38,4 +38,5 @@ My own version of <a href = "https://github.com/bradtraversy/50projects50days">b
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Custom-Range-Slider">Custom Range Slider</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Password-Strength-Background">Password Strength Background</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Kinetic-Loader">Kinetic Loader</a></li>
+<li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Feedback-UI-Design">Feedback UI Design</a></li>
 </ol>
