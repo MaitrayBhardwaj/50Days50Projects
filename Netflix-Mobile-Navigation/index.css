@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Muli', sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.w-0{
+	width: 0 !important;
+}
+
+.navbar{
+	overflow-x: hidden;
+	position: fixed;
+	height: 100vh;
+	left: 0;
+	z-index: 2;
+	transition: width 0.5s ease;
+}
+
+.black{
+	background-color: #221F1F;
+	box-shadow: rgba(0, 0, 0, 1.0) 0px 0px 4px;
+	width: 50vw;
+	transition-delay: 0.25s;
+}
+
+.red{
+	background-color: #E50914;
+	width: 47vw;
+	transition-delay: 0.5s;
+}
+
+.white{
+	background-color: #fff;
+	width: 44vw;
+	transition-delay: 0.75s;
+}
+
+.white > *{
+	margin: 1.25em;
+}
+
+.toggleNav{
+	position: absolute;
+	top: 0.5em;
+	left: 0.5em;
+	font-size: 2em;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content img{
+	width: 100px;
+}
+
+.content h2{
+	margin: 0.5em;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	width: 30px;
+}
+
+.tabs, .inner-tabs {
+	margin: 1em;
+	list-style-type: none;
+}
+
+.cross{
+	position: static;
+	margin-left: auto;
+	font-size: 1em;
+}
+
+.tabs li, .inner-tabs li{
+	margin: 0.5em 0;
+	text-transform: uppercase;
+}
+
+@media (max-width: 470px) {
+	.white{
+		width: 80vw;
+	}
+
+	.red{
+		width: 85vw;
+	}
+
+	.black{
+		width: 90vw;
+	}
+}
