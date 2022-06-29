@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.choices{
+	list-style: none;
+}
+
+input[type='checkbox']{
+	display: none;
+}
+
+input[type='checkbox']:checked + .switch{
+	background-color: #8E44AD;
+}
+
+input[type='checkbox']:checked + .switch::after{
+	animation-name: slideLeft;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+input[type='checkbox']:not(:checked) + .switch::after{
+	animation-name: slideRight;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+.switch{
+	background-color: #CCC;
+	width: 4em;
+	height: 2em;
+	border-radius: 20px;
+	display: inline-block;
+	transition: all 0.5s ease;
+}
+
+.switch::after{
+	content: '';
+	width: 1.8em;
+	height: 1.8em;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	background-color: white;
+	border-radius: 50%;
+	transition: all 0.5s ease;
+}
+
+.choices li{
+	position: relative;
+	display: flex;
+	margin: 1em 0;
+	align-items: center;
+}
+
+.text{
+	margin: 0 1em;
+}
+
+@keyframes slideLeft{
+	0%{
+		left: 2px;
+	}
+	50%{
+		width: 1.9em;
+		height: 1.9em;
+	}
+	100%{
+		left: 2em;
+		width: 1.8em;
+		height: 1.8em;
+	}
+}
+
+@keyframes slideRight{
+	0%{
+		left: 2em;
+	}
+	50%{
+		width: 1.9em;
+		height: 1.9em;
+	}
+	100%{
+		left: 2px;
+		width: 1.8em;
+		height: 1.8em;
+	}
+}
