@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Poppins, sans-serif;
+}
+
+body{
+	background-color: #7BDAF3;
+}
+
+.addNote{
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	background-color: #9EC862;
+	color: white;
+	border: 0;
+	padding: 0.75em;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.addNote i{
+	font-size: 1.5em;
+	margin-right: 5px;
+}
+
+.notes{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 2em;
+	max-width: 80vw;
+}
+
+.note{
+	display: flex;
+	flex-direction: column;
+	width: 40vw;
+	margin: 1em;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 15px;
+}
+
+.note .navbar{
+	display: flex;
+	justify-content: flex-end;
+	background-color: #9EC862;
+	color: white;
+	font-size: 1.25em;
+	padding: 0.5em;
+}
+
+.editNote, .deleteNote{
+	margin: 0 0.25em;
+	cursor: pointer;
+}
+
+.note .noteContent{
+	padding: 1em;
+	background-color: white;
+	word-wrap: normal;
+	height: 50vh;
+	font-size: 1em;
+	white-space: pre-line;
+	overflow-wrap: break-word;
+}
+
+.noteContent:focus{
+	outline: 0;
+	border: aliceblue 1px solid;
+}
+
+.d-none{
+	display: none;
+}
