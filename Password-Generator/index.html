@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Password Generator</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div id="main">
+		<h1>Password Generator</h1>
+		<div class="password">
+			<span class="generatedPassword"></span>
+			<button class="copyPassword">
+				<i class="bi bi-clipboard"></i>
+			</button>
+		</div>
+		<label class="param">
+			<span>Password Length</span>
+			<input type="number" min="1" max="20" value="20" class="length">
+		</label>
+		<label class="param">
+			<span>Include uppercase letters</span>
+			<input type="checkbox" class="uppercase" checked>
+		</label>
+		<label class="param">
+			<span>Include lowercase letters</span>
+			<input type="checkbox" class="lowercase" checked>
+		</label>
+		<label class="param">
+			<span>Include numbers</span>
+			<input type="checkbox" class="numbers" checked>
+		</label>
+		<label class="param">
+			<span>Include symbols</span>
+			<input type="checkbox" class="symbols" checked>
+		</label>
+		<button class="generate-btn">Generate Password</button>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>
