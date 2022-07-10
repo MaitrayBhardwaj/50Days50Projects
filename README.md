@@ -45,5 +45,6 @@ My own version of <a href = "https://github.com/bradtraversy/50projects50days">b
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Verify-Account-UI">Verify Account UI</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Live-User-Filter">Live User Filter</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Movie-App">Movie-App</a></li>
-<li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Password-Generator">Password-Generator</a></li>
+<li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Password-Generator">Password Generator</a></li>
+<li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Animated-Navigation">Animated Navigation</a></li>
 </ol>
