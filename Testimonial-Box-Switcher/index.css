@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat, sans-serif;
+}
+
+body{
+	background-color: #F4F4F4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	background-color: #476CE4;
+	color: white;
+	max-width: 60%;
+	border-radius: 10px;
+	padding: 2em;
+	align-items: center;
+}
+
+.statement{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.statement-text{
+	word-wrap: normal;
+	max-width: 80%;
+	line-height: 2em;
+}
+
+.quote{
+	color: #7E98EC;
+	font-size: 3em;
+	margin: 0.5em;
+	margin-top: 0;
+	align-self: flex-start;
+}
+
+.right{
+	transform: rotate(180deg);
+}
+
+.author{
+	display: flex;
+	align-items: center;
+}
+
+.auth-img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin: 1em;
+	object-fit: cover;
+}
+
+.auth-name{
+	font-weight: 550;
+	font-size: 1.25em;
+	margin-bottom: 0.5em;
+}
+
+.progress{
+	height: 5px;
+	margin: 2em 1em;
+	background-color: white;
+	align-self: flex-start;
+	animation-name: grow;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+@keyframes grow {
+	from {
+		width: 0;
+	}
+
+	to {
+		width: 90%;
+	}
+}
