@@ -1,10 +1,8 @@
-const emailLetters = document.querySelectorAll('.emailLetters')
-const passLetters = document.querySelectorAll('.passLetters')
+const labels = document.querySelectorAll('.form-control label')
 
-emailLetters.forEach((letter, idx) => {
-	letter.style.transitionDelay = `${idx * 50}ms`
-})
-
-passLetters.forEach((letter, idx) => {
-	letter.style.transitionDelay = `${idx * 50}ms`
+labels.forEach(label => {
+    label.innerHTML = label.innerText
+        .split('')
+        .map((letter, idx) => `<span style="transition-delay:${idx * 50}ms">${letter}</span>`)
+        .join('')
 })
