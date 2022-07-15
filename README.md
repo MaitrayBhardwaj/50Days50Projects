@@ -3,9 +3,9 @@
 
 My own version of <a href = "https://github.com/bradtraversy/50projects50days">bradtraversy's 50projects50days</a>
 
-*Started on 07 June 2022.*
+*07 June 2022 - 15 July 2022*
 
-<h2>List of projects(till now)</h2>
+<h2>List of projects</h2>
 
 <ol>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Expanding-Cards">Expanding Cards</a></li>
@@ -53,7 +53,9 @@ My own version of <a href = "https://github.com/bradtraversy/50projects50days">b
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Movie-App">Movie App</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Password-Generator">Password Generator</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Animated-Countdown">Animated Countdown</a></li>
+<li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Drag-N-Drop">Drag N Drop</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Content-Placeholder">Content Placeholder</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Animated-Navigation">Animated Navigation</a></li>
 <li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Image-Carousel">Image Carousel</a></li>
+<li><a href="https://maitraybhardwaj.github.io/50Days50Projects/Insect-Catch-Game">Insect Catch Game</a></li>
 </ol>
